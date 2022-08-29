@@ -1,0 +1,39 @@
+section {
+  height: 200px;
+  width: 100vw;
+  position: relative;
+}
+.ball1 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: rgb(215, 128, 174);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  left: 0;
+  transition: 0.25s;
+}
+.ball2 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: rgb(84, 145, 178);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  bottom: 0;
+  left: 30%;
+  transition: 2.5s;
+  transition-delay: 0.25s;
+}
+section:hover .ball1 {
+  left: 17.5%;
+}
+section:hover .ball2 {
+  left: 91.5%;
+}
