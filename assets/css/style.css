@@ -31,9 +31,9 @@ section {
   transition: 2.5s;
   transition-delay: 0.25s;
 }
-section:hover .ball1 {
+section:active .ball1 {
   left: 17.5%;
 }
-section:hover .ball2 {
+section:active .ball2 {
   left: 91.5%;
 }
